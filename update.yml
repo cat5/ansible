@@ -1,0 +1,9 @@
+---
+- hosts: all
+  gather_facts: True
+  strategy: debug
+  tasks:
+  - apt: update_cache=yes
+  - apt: upgrade=dist
+
+

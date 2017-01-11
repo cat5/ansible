@@ -1,0 +1,13 @@
+{
+ 	"mysql": {
+ 		"host": "127.0.0.1:3306",
+ 		"user": "root",
+ 		"pass": "Co08/25a!",
+ 		"name": "semaphore"
+ 	},
+ 	"port": ":80",
+ 	"bugsnag_key": "",
+ 	"tmp_path": "/etc/ansible",
+ 	"cookie_hash": "QqL7QuJRUfvdKXJj9h0jq9mwfBdtFjoQV0oE1XiN8lY=",
+ 	"cookie_encryption": "zvGF9ke4wsPROvxriyTDRcCj35rfE7iYV+Ubvcaddvw="
+ }

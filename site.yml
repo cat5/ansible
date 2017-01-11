@@ -1,0 +1,6 @@
+---
+# all servers should be in here
+- include: localhost.yml
+#- include: webservers.yml
+#- include: appservers.yml
+#- include: dbservers.yml

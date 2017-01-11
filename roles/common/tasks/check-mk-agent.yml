@@ -1,0 +1,11 @@
+---
+- name: Installing check-mk-agent
+  apt: name=check-mk-agent state=installed
+  tags: check-mk-agent
+
+- name: Let's configure config file, as it's default disabled
+  template: src=check-mk-agent.j2 dest=/etc/xinetd.d/check_mk
+  notify:
+    - restart xinetd
+  tags: check-mk-agent
+  

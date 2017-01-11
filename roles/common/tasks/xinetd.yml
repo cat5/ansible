@@ -1,0 +1,9 @@
+---
+- name: Installing Xinetd - dependancies
+  apt: name=xinetd state=installed
+  tags: xinetd
+
+- name: make sure xinetd is running and enabled
+  service: name=xinetd state=started enabled=yes
+  tags: xinetd
+  
