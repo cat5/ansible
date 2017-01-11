@@ -3,4 +3,4 @@
 - hosts: webservers
   roles:
     - common
-#   - ansible-check-mk-agent
+    - ansible-check-mk-agent
